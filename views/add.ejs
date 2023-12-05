@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeni Görev</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+<body class="bg-dark">
+    <div class="container-xl">
+        <br>
+        <a href="/home" class="btn btn-outline-light"><i class="fa fa-backward"></i> Geri</a>
+        <br>
+        <br>
+        <form action="/add" method="post">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label text-light">Id</label>
+                <input type="text" class="form-control" id="id" name="id" placeholder="Id giriniz.">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput2" class="form-label text-light">Başlık</label>
+                <input type="text" class="form-control" id="başlık" name="başlık" placeholder="Başlık giriniz.">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label text-light">İçerik</label>
+                <textarea class="form-control" id="içerik" name="içerik"  rows="3" placeholder="İçerik giriniz."></textarea>
+            </div>
+            <button type="submit" class="btn btn-success" >Ekle</button>
+
+
+        </form>
+
+    </div>
+
+
+
+
+    
+</body>
+</html>
