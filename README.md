@@ -31,11 +31,11 @@ Bu basit Todo uygulaması, Node.js ve Express kullanılarak oluşturulmuştur. K
 - **Görev İçeriğini Okuma:** Her Görevin yanındaki sayfa simgesine tıklayarak görev içeriğini okuyabilirsiniz.
 
 ## Ekran Görüntüleri
-![Todo Uygulaması](./screenshots/todo-app-screenshot1.jpg)
+![Todo Uygulaması](./todo-app-screenshot1.jpg)
 
-![Todo Uygulaması](./screenshots/todo-app-screenshot2.jpg)
+![Todo Uygulaması](./todo-app-screenshot2.jpg)
 
-![Todo Uygulaması](./screenshots/todo-app-screenshot3.jpg)
+![Todo Uygulaması](./todo-app-screenshot3.jpg)
 
 
 ## Katkıda Bulunma
